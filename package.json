@@ -1,0 +1,29 @@
+{
+  "name": "express_structure",
+  "version": "3.1.0",
+  "description": "Organizing files in an express.js web application project",
+  "scripts": {
+    "test": "./bin/test.sh",
+    "start": "./app/server.js | bistre",
+    "lint": "standard"
+  },
+  "main": "./app/server",
+  "engines": {
+    "node": "6"
+  },
+  "keywords": [
+    "express.js"
+  ],
+  "dependencies": {
+    "bole": "3.0.2",
+    "express": "4.15.2",
+    "pug": "2.0.0-beta6"
+  },
+  "devDependencies": {
+    "bistre": "1.0.1",
+    "standard": "9.0.1",
+    "supertest": "3.0.0",
+    "tap-dot": "1.0.5",
+    "tape": "4.6.3"
+  }
+}
